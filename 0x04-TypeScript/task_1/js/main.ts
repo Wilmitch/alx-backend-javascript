@@ -41,5 +41,4 @@ class StudentClass implements classInterface{
     workOnHomework(): string {
         return "Currently working";
     }
-
 }
