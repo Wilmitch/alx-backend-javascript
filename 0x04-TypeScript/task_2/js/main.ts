@@ -51,5 +51,4 @@ type Subjects = "Math" | "History";
 // @ts-ignore
 export function teachClass(todayClass: Subjects): string | boolean {
     return (todayClass === "Math") ? "Teaching Math" : (todayClass === "History") ? "Teaching History" : `${undefined}`
-
 }
